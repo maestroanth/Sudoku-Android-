@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:gravity="top"
+    android:padding="30dip"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_title"
+        android:layout_marginBottom="25dip"
+        android:textSize="20.5sp"
+        android:textColor="@color/letters" />
+	<TableLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:stretchColumns="*">
+        <TableRow>
+	    <Button
+	        android:id="@+id/new_button"
+	        android:text="@string/new_game_label"
+	        android:textColor="@color/letters" />
+	
+	    <Button
+	        android:id="@+id/continue_button"
+	        android:text="@string/continue_label"
+	        android:textColor="@color/letters" />
+		</TableRow>
+		<TableRow>
+	    <Button
+	        android:id="@+id/about_button"
+	        android:text="@string/about_label"
+	        android:textColor="@color/letters" />
+	
+	    <Button
+	        android:id="@+id/exit_button"
+	        android:text="@string/exit_label"
+	        android:textColor="@color/letters" />
+		</TableRow>
+	</TableLayout>
+</LinearLayout>
