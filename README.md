@@ -8,3 +8,5 @@ To Run:  There are two options for running this.
 
 
 2. If you are an Android developer with the eclipse/android setup, you can simply add this repository to your project folder and run the emulator within Eclipse.  However, I do not recommend this because I ran into emulation problems due to a glitch where the emulator only uses one of your computer's processor's cores and was incredibly slow.
+
+Code Location: This app used a Java backend with an XML frontend. The Java code can be found at Sudoku!!!!!->src->org->example->sudoku and the xml code can be found at Sudoku!!!!!->res.  Thank you for viewing this! - Anthony (NetDoodler)
